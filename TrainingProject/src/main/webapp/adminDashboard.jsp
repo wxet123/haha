@@ -174,7 +174,7 @@
 						</div>
 						<div class="text-center mt-3">
 							<a href="adminSchedule.jsp">
-								<button type="button" class="btn">Create SCHEDULE</button>
+								<button type="button" class="btn">Check SCHEDULE</button>
 							</a>
 						</div>
 

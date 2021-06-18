@@ -51,8 +51,8 @@ public static List<ListOfTrainings> getAllRecords() throws ParseException{
             u.setCourse_name(rs.getString("course_name")); 
             u.setDescription(rs.getString("description"));
             u.setDate(rs.getString("date"));
-            u.setStartTime(time(rs.getString("startTime")));
-            u.setEndTime(time(rs.getString("endTime")));
+            u.setStartTime((rs.getString("startTime")));
+            u.setEndTime((rs.getString("endTime")));
             u.setInstructor(rs.getString("instructor"));
             
             
